@@ -1,4 +1,4 @@
-(function() {
+(function modal() {
     // 1. Avoid duplicates: Check if modal already exists
     if (document.getElementById('my-insight-bookmarklet')) return;
     // 2. Create the host element for the Shadow DOM
