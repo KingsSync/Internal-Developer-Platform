@@ -1,7 +1,6 @@
 (function() {
     // 1. Avoid duplicates: Check if modal already exists
     if (document.getElementById('my-insight-bookmarklet')) return;
-
     // 2. Create the host element for the Shadow DOM
     const host = document.createElement('div');
     host.id = 'my-insight-bookmarklet';
@@ -66,4 +65,5 @@
         // Close if clicking outside the modal box
         if (e.target === overlay) closeModal();
     });
+    console.log("I have loaded!");
 })();
